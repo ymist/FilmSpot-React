@@ -1,0 +1,26 @@
+.container-erro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 500px;
+	height: 300px;
+	background-color: #101e33;
+	border-radius: 10px;
+	box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	padding: 20px;
+}
+.container-erro a {
+	color: #ffb92a;
+	text-decoration: none;
+	font-size: 27px;
+	width: max-content;
+	margin-top: 25px;
+	align-self: center;
+}
+.container-erro a:hover {
+	transform: scale(1.1);
+	text-decoration: double;
+}

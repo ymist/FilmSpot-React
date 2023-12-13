@@ -1,0 +1,29 @@
+.header-padrao {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background-color: #101e33;
+	margin-bottom: 25px;
+}
+.header-padrao a {
+	text-decoration: none;
+	color: white;
+}
+.header-padrao a:hover {
+	color: #ffb92a;
+}
+
+.logo {
+	font-size: 25px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+.favoritos {
+	font-size: 16px;
+	position: relative;
+	left: 75%;
+}
